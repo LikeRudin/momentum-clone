@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.app {
+    padding: 20px;
+    margin: 10px;
+}
+.last {
+    margin-top: auto;
+}
+
+#weather {
+    background-color: yellowgreen;
+}
+
+.hidden {
+    display: none;
+   
+}
+
+#clockForm {
+    
+    
+    
+    background-color: tomato;
+}
+#greet {
+    background-color: azure;
+}
+
+#todoForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: tan;
+}
+
+#quoteForm {
+    background-color: teal;
+}
+
+#todoList {
+    background-color: pink;
+}

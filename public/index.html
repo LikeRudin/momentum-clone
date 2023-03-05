@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <div class="container">
+    <div id="weather" class="app">
+        <span></span>
+        <span></span>
+    </div>
+    
+    <form id="clockForm" class="app">
+        
+        <h1 id="time"></h1>
+        
+    </form>
+   
+    <h2 id="greet" class="app">what is your name?</h2>
+
+    <form id="loginForm" class="app">
+        <input type="text" required placeholder="let me know your name">
+    </form>
+    
+    <form id="todoForm" class="app">
+        <h2 id="todoQuestion">what is your main focus for today?</h2>
+        <input type="text" required >
+    </form>
+    <ul id="todoList"></ul>
+
+
+    <form id="quoteForm" class="app last">
+        <p id="quote"></p>
+        <p id="author"></p>
+        <button>re-generate</button>
+    </form>
+</div>
+
+    <script src="./js/clock.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/quotes.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/weather.js"></script>
+    
+</body>
+</html>
